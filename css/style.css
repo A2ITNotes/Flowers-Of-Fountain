@@ -1,0 +1,42 @@
+body{
+	background-color: #FFD8E1;
+}
+
+#title{
+	font-family: 'Great Vibes' ;
+	font-size: 100px;
+	color:#C17767;
+}
+
+      /* Styling for the pop-up image container */
+      .popup {
+        display: none; /* Initially hidden */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,216,225,0.86)	; /* Semi-transparent black */
+        z-index: 1;
+        
+      }
+      
+      /* Styling for the pop-up image itself */
+      .popup img {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+        max-height: 90%;
+        margin-top: 20px;
+      }
+img{
+  box-shadow: 10px 10px 5px pink;
+}
+
+      .b-example-divider {
+        height: 1rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
